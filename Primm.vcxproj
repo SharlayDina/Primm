@@ -139,7 +139,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="forev.cpp" />
+    <ClCompile Include="ju.cpp" />
+    <ClCompile Include="ll.cpp" />
     <ClCompile Include="Primm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="forev.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="ju.h" />
+    <ClInclude Include="ll.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
